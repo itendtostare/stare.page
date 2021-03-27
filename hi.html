@@ -1,0 +1,25 @@
+---
+title: Stare
+layout: home
+description: hi, I’m Stare
+bio: I’m a Marketing Manager at [Magnum Photos](https://magnumphotos.com), a photography
+  agency in London. I also sometimes make app, newsletters, design objects, and websites like
+  this one. Find me online somewhere, if you want.
+---
+
+<div class="container">
+  <section class="head">
+    <h1>hi, I'm Stare</h1>
+    {{ page.bio | markdownify }}
+    <nav>
+      {% include nav.html %}
+    </nav>
+  </section>
+
+
+  <section class="hi">
+    {% for link in site.data.links %}
+    {% include link.html link=link %}
+    {% endfor %}
+  </section>
+</div>
