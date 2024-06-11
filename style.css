@@ -8,7 +8,7 @@
 input {
     height: inherit;
     width: 680px;
-    background: #26233a;
+    background: #222222;
     color: #ebbcba;
     font: "Cartograph CF";
     font-weight: mono;
@@ -28,7 +28,7 @@ body {
 	background-image: url('../background/bg.jpg');
 	background-repeat : no-repeat;
 */
-	background-color: #191724;
+	background-color: #222222;
 	background-size: cover;
 }
 
